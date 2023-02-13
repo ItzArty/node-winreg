@@ -1,5 +1,5 @@
 # node-winreg
-A nodejs module for reading from the Microsoft Windows registry
+A nodejs module for reading from the Microsoft Windows registry implemented in C++ utilizing the windows.h library
 
 Will soon get back to this.
 
@@ -23,3 +23,12 @@ Not so much a bug: Often reads may result in error 0x2 which is referred to as `
   * REG_MULTI_SZ (null-terminated string array): Array
     
   **Support for other datatypes is on the way**
+  
+### Notes
+
+  **HIVE** can be represented as a string of the following shapes:
+  * `hklm`, `hkey_local_machine`
+  * `hkcu`, `hkey_current_machine`
+  * `hkcr`, `hkey_classes_root`
+  * `hkcc`, `hkey_current_config`
+  * `hku`, `hkey_users`
