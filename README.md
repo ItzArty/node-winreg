@@ -15,9 +15,9 @@ Not so much a bug: Often reads may result in error 0x2 which is referred to as `
   3. `HIVE` : `PATH` / `KEY`
   
   Returns an array, string, number or a bigint depending on what datatype the request key is
-    * REG_QWORD (unsigned 64bit integer): BigInt
-    * REG_DWORD (unsigned 32bit integer): Number
-    * REG_SZ (string): String
-    * REG_MULTI_SZ (null-terminated string array): Array
+  * REG_QWORD (unsigned 64bit integer): BigInt
+  * REG_DWORD (unsigned 32bit integer): Number
+  * REG_SZ (string): String
+  * REG_MULTI_SZ (null-terminated string array): Array
     
   **Support for other datatypes is on the way**
