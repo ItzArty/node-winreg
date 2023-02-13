@@ -10,12 +10,9 @@ Not so much a bug: Often reads may result in error 0x2 which is referred to as `
 `getKeyValue( ... ) : [ Array, String, Number, BigInt ]`
 
   Accepts from 1 up to 3 arguments in the following combinations:
-  
-    1. `HIVE`, `PATH`, `KEY`
-    
-    2. `HIVE`, `PATH` / `KEY`
-    
-    3. `HIVE` : `PATH` / `KEY`
+  1. `HIVE`, `PATH`, `KEY`
+  2. `HIVE`, `PATH` / `KEY`
+  3. `HIVE` : `PATH` / `KEY`
   
   Returns an array, string, number or a bigint depending on what datatype the request key is
     * REG_QWORD (unsigned 64bit integer): BigInt
