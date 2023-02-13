@@ -7,6 +7,8 @@ You can expect to see editing and watching methods to be added in the future wit
 
 Not so much a bug: Often reads may result in error 0x2 which is referred to as `ERROR_FILE_NOT_FOUND`, even though the path could exist.
 
+### Methods
+
 `getKeyValue( ... ) : [ Array, String, Number, BigInt ]`
 
   Accepts from 1 up to 3 arguments in the following combinations:
