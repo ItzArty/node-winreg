@@ -21,8 +21,18 @@ Not so much a bug: Often reads may result in error 0x2 which is referred to as `
   * REG_DWORD (unsigned 32bit integer): Number
   * REG_SZ (string): String
   * REG_MULTI_SZ (null-terminated string array): Array
-    
-  **Support for other datatypes is on the way**
+
+`watchPath( ... ) : { name : String, oldValue : [ Array, String, Number, BigInt ], newValue: [ Array, String, Number, BigInt ] }`
+
+  Accepts from 2 up to 3 arguments in the following combinations:
+  1. `HIVE`, `PATH`, `CALLBACK`
+  2. `HIVE : PATH`, `CALLBACK`
+  
+  Returns `undefined`
+  
+  `CALLBACK( CHANGE )` - called when a change in the path is detected, follows the following structure:
+
+**Support for other datatypes is on the way**
   
 ### Notes
 
