@@ -1,5 +1,5 @@
 # node-winreg
-A nodejs module for reading from the Microsoft Windows registry implemented in C++ utilizing the windows.h library
+A native nodejs binding for reading from the Microsoft Windows registry implemented in C++ utilizing the windows.h library
 
 Will soon get back to this.
 
